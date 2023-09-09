@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  height: 80vh;
+}
+
+.infoHolder {
+  width: 400px;
+  text-align: center;
+  margin: auto 0;
+}
+
+.imgHolder {
+  width: 400px;
+  display: flex;
+  height: 400px;
+  margin: auto 0;
+}
+.img {
+  object-fit: cover;
+  width: 400px;
+  border-radius: 50%;
+}
+
+section {
+  display: flex;
+  gap: 20px;
+}
+
+.additional {
+  border: solid;
+  padding: 1rem;
+  border-radius: 10px;
+  border-width: 2px;
+  width: 20rem;
+}
+
+p {
+  font-weight: 600;
+}
